@@ -1,0 +1,22 @@
+02.24 11:11
+index.html
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Palestine | News & Blog</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#0f0f0f;color:#fff}
+nav{background:#000;padding:20px;text-align:center;font-size:20px;font-weight:600}
+.section{padding:60px 10%}
+h2{text-align:center;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:#1a1a1a;padding:20px;border-radius:15px;cursor:pointer;transition:.3s}
+.card:hover{transform:translateY(-5px);background:#222}
+button{padding:10px 20px;border:none;border-radius:20px;background:linear-gradient(to right,green,red);color:#fff;cursor:pointer}
+.admin-panel{background:#111;padding:30px;border-radius:15px;margin-top:40px}
+input,textarea{width:100%;padding:10px;margin:10px 0;border:none;border-radius:8px}
+.modal{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.8);display:none;justify-content:center;align-items
